@@ -1,0 +1,16 @@
+Fotag is an application that users can load images, and display these images 
+in a dynamic layout that responds to device orientation. The main interface 
+has a rating bar on the top left corner, and the first button from left is for
+ clearing all images, the second button is for loading images, and the third 
+ button is for clearing stars from rating bar. For every image, when we click 
+ it, there is a pop up window which shows the full size of this image. In 
+ addition, users can rate every image and clear their rate.
+
+The class ImageModel stores a single image including its context and rate. The
+ class ImageCollection stores a list of image models, and also the default 
+ image informations. The class Adapter is a view of single image. The class 
+ large is a single activity with a pop up window.
+
+The application also automatically switch layout based on the phone 
+orientation. If it is a landscape, interface will show 2 columns of images,
+ portrait will show a single column of image.
